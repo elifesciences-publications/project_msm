@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE GIFTI SYSTEM "http://gifti.projects.nitrc.org/gifti.dtd">
+<GIFTI Version="1.0"  NumberOfDataArrays="1"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="http://brainvis.wustl.edu/caret6/xml_schemas/GIFTI_Caret.xsd">
+   <MetaData>
+      <MD>
+         <Name><![CDATA[AnatomicalStructurePrimary]]></Name>
+         <Value><![CDATA[CortexLeft]]></Value>
+      </MD>
+      <MD>
+         <Name><![CDATA[gifticlib-version]]></Name>
+         <Value><![CDATA[gifti library version 1.09, 28 June, 2010]]></Value>
+      </MD>
+   </MetaData>
+   <LabelTable>
+      <Label Key="0" Red="1" Green="1" Blue="1" Alpha="0"><![CDATA[???]]></Label>
+   </LabelTable>
+   <DataArray Intent="NIFTI_INTENT_NONE"
+              DataType="NIFTI_TYPE_FLOAT32"
+              ArrayIndexingOrder="RowMajorOrder"
+              Dimensionality="1"
+              Dim0="20252"
+              Encoding="GZipBase64Binary"
+              Endian="LittleEndian"
+              ExternalFileName=""
+              ExternalFileOffset="">
+      <MetaData/>
+      <Data>eJzt3EuITXEcB/BrZm7yzIIi5C02UyazMe7/36Q0UZNHNl55DDKT6zFDFkSxECKvIgl5lCQ7E4lErCysjFLeQjSepVFS1KykO/feufeWz6fO4mzO73v+/3PO7nwTCQAAAAAAAAAAAAAAAAAAAAAAAAAAusPdusshkdgeczlGDf0ein0f5M/xjpasnoOqdf1j05OfqUJm/Xakd5dzpp/Nipfe3AzNHdUFy7pt8Ozw7sSmv+ZZfmZTfN9UFWtrD4U3jRVxxYM7oTKZKMo71XDycNh3riIO2D83XvpcFn88PhQGDVtT0D0FAAAAAAAAAAAAAAAAAADoDlOf9v1nv8KxV83x+fy9oeHR0ZLoUHhxvj6jf+gPtr8sat72yjEZ91YsquwIowfXFyXvkFsNGfcSLH3bEntcuVuwnH12LUiNX72yS90JExcuie09k7EQ+fadnZxVD8WyXs8L0FeQXVdKsv5quP7pZrjVNjbvGcu/jcypx+XPkW+lk6ft3JSSyLLn89IcO3fyo1/1xKJn2N1rY9HmVw48kirW7J0bWrN4BnK3qrymoDM33z/cxTXOzdcTdQWZNWhZugv7l72Zra8znJO9HVW1GczI3qdn91PpU43dtue76kZ3y3XLJjSH1uWL8/4OJsd9Sc2oTsTWxkTevqMAAAAAAAAAAAAAAAAAAAAA8D9qn/Wh5uGNrZ39INPOzowH1qc7z8srWkqm46Op9ny482FSPH56bbzYIx2P3R6emnPhZFiyN/zO+nbrmpLoIBxZNr1mRNv0cG3OlpD8eLUz09B780JZy4iSWU8AAAAAAAAAAAAAAAAAAAAAAAAAAAAoNb8A/qtyUw==</Data>
+   </DataArray>
+</GIFTI>

@@ -1,0 +1,23 @@
+#!/bin/sh
+
+if [ "$1" == "" ];then
+    echo ""
+    echo "quicktrack_gpu <bpxdir> <outdir> [ptx options]"
+    echo ""
+    echo "Run this from submit node - will launch job on CUDA nodes"
+    echo ""
+    exit 1
+fi
+
+d=$1;shift
+o=$1;shift
+
+op=" -s $d/merged -m $d/nodif_brain_mask "
+op=" $op --loopcheck --forcedir --dir=$o"
+op=" $op --opd"
+
+bindir=$internalpath/ptx2_gpu/CUDA_6.5
+
+LD_LIBRARY_PATH=${LD_LIBRARY_PATH}:/opt/cuda-6.5/lib
+export LD_LIBRARY_PATH
+fsl_sub -q $FSLGECUDAQ  $bindir/probtrackx2_gpu $op -V 1 $*
