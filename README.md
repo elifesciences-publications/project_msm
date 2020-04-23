@@ -1,6 +1,6 @@
 This repository contains processing code and result files associated with the following publication:
 
-Eichert N, Robinson EC, Bryant KL, Jbabdi S, Jenkinson M, Li L, Krug K, Watkins KE & Mars R. 2020. Cross-species cortical alignment identifies different types of anatomical reorganization in the primate temporal lobe. *eLife*
+Eichert N, Robinson EC, Bryant KL, Jbabdi S, Jenkinson M, Li L, Krug K, Watkins KE & Mars R. 2020. Cross-species cortical alignment identifies different types of anatomical reorganization in the primate temporal lobe. *eLife* https://doi.org/10.7554/eLife.53232
 
 Processing code is stored in the subfolder /scripts. This folder also contains the file `code_instructions.md`, which contains information of how to run the code.
 
