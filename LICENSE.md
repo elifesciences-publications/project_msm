@@ -1,7 +1,8 @@
-Software, i.e. code in the subfolder `scripts` is available under the MIT Licence
-All other datafiles in the subfolder `project_msm_figures` are available under the CC BY-NC-SA 4.0 Licencse.
+Software, i.e. code in the subfolder `scripts` is available under the MIT License.
 
-Both licences are shown below and repeated in the two subfolders.
+All other datafiles in the subfolder `project_msm_figures` are available under the CC BY-NC-SA 4.0 License.
+
+Both licenses are shown below and repeated in the two subfolders.
 
 
 #MIT License
